@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div v-for="item in audios" :key="item.url">
+    <div v-for="(item, index) in audios" :key="index">
       <VueAudio :theUrl="item.url" :theControlList="item.controlList"/>
     </div>
   </div>
@@ -18,17 +18,17 @@ export default {
     return {
       audios: [
         {
-          url: 'http://devtest.qiniudn.com/secret base~.mp3',
+          url: './static/qian-si-xian.mp3',
           controlList: 'onlyOnePlaying'
         },
         {
-          url: 'http://devtest.qiniudn.com/回レ！雪月花.mp3',
+          url: './static/qian-si-xian.mp3',
           controlList: 'noDownload noMuted onlyOnePlaying'
-        },{
-          url: 'http://devtest.qiniudn.com/あっちゅ～ま青春!.mp3',
+        }, {
+          url: './static/qian-si-xian.mp3',
           controlList: 'noDownload noVolume noMuted onlyOnePlaying'
-        },{
-          url: 'http://devtest.qiniudn.com/Preparation.mp3',
+        }, {
+          url: './static/qian-si-xian.mp3',
           controlList: 'noDownload noSpeed onlyOnePlaying'
         }
       ]
