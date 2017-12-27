@@ -18,17 +18,17 @@ export default {
     return {
       audios: [
         {
-          url: './static/qian-si-xian.mp3',
+          url: './static/horse.ogg',
           controlList: 'onlyOnePlaying'
         },
         {
-          url: './static/qian-si-xian.mp3',
+          url: './static/horse.ogg',
           controlList: 'noDownload noMuted onlyOnePlaying'
         }, {
-          url: './static/qian-si-xian.mp3',
+          url: './static/horse.ogg',
           controlList: 'noDownload noVolume noMuted onlyOnePlaying'
         }, {
-          url: './static/qian-si-xian.mp3',
+          url: './static/horse.ogg',
           controlList: 'noDownload noSpeed onlyOnePlaying'
         }
       ]
