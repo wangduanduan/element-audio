@@ -1,9 +1,19 @@
+# 目的
+
+- 本项目的目的是教你如何实现一个简单的音乐播放器（这并不难）
+- 本项目并不是一个可以用于生产环境的element播放器，所以并没有考虑太多的兼容性问题
+- 本项目不是ElementUI的一个音频插件，只是一个教程，不过你可以自行扩展实现
+- 本项目只是为了学习audio相关事件以及API
+
+
+本项目的音频文件是位于`static/falling-star.mp3`，歌曲名为：星球坠落Live 艾热、李佳隆
+
 # 运行
 ```
 cd element-aduio && yarn && yarn run dev
 ```
 
-# [demo](https://wangduanduan.github.io/element-audio/)
+# [查看demo](https://wangduanduan.github.io/element-audio/)
 
 # 文档
 # 1. 简介
