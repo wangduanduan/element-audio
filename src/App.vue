@@ -18,17 +18,17 @@ export default {
     return {
       audios: [
         {
-          url: './static/horse.ogg',
+          url: './static/falling-star.mp3',
           controlList: 'onlyOnePlaying'
         },
         {
-          url: './static/horse.ogg',
+          url: './static/falling-star.mp3',
           controlList: 'noDownload noMuted onlyOnePlaying'
         }, {
-          url: './static/horse.ogg',
+          url: './static/falling-star.mp3',
           controlList: 'noDownload noVolume noMuted onlyOnePlaying'
         }, {
-          url: './static/horse.ogg',
+          url: './static/falling-star.mp3',
           controlList: 'noDownload noSpeed onlyOnePlaying'
         }
       ]
